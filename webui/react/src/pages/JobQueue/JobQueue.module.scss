@@ -1,0 +1,17 @@
+.base {
+  .centerVertically {
+    align-items: center;
+    display: flex;
+  }
+  .centerHorizontally {
+    display: flex;
+    justify-content: center;
+  }
+}
+.state {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+}

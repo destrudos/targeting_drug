@@ -1,0 +1,11 @@
+.base {
+  color: var(--theme-float-on);
+}
+.optionDisabled {
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    color: var(--theme-surface-on-weak);
+  }
+}

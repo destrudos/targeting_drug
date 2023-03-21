@@ -1,0 +1,8 @@
+{
+  "extends": "./src/shared/configs/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "module": "esnext"
+  },
+  "include": ["src/**/*", "typings/**/*.ts"]
+}
